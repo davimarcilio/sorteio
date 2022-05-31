@@ -1,3 +1,4 @@
+![Screenshot_390](https://user-images.githubusercontent.com/104699555/171075073-2880d6d7-1a0e-4675-aa0a-e922541b67a5.png)
 # sorteio
 um site de sorteio que fiz usando javascript.
 
