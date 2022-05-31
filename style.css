@@ -1,0 +1,147 @@
+
+.tdcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.container{
+    display: flex;
+}
+.icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 5em;
+    height: 2em;
+    color: rgb(207, 207, 207);
+    font-size: 2.5em;
+    margin: 1em;
+    padding: 10px;
+    border-radius: 20px;
+    background: #e9e5e5 ;
+    box-shadow: 12px 12px 24px #c6c3c3, -12px -12px 24px #ffffff;
+}
+.botao{
+color: rgb(0, 0, 0);
+cursor: pointer;
+font-weight: 900;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+.botao:active
+{
+    transform: scale(1.6);
+    transition: box-shadow.3s, transform 6s cubic-bezier(.5,4,1,2);
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(255, 255, 255, 0.15);
+    
+}
+#num{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sorteado{
+    text-align: center;
+    margin-top:40px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 900;
+    background-color: black;
+    border-radius: 30px;
+    padding: 8px;
+}
+.tittle{
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+}
+@import url('https://rsms.me/inter/inter.css');
+ :root {
+	 --color-light: white;
+	 --color-dark: #212121;
+	 --color-signal: #000000;
+	 --color-background: var(--color-light);
+	 --color-text: var(--color-dark);
+	 --color-accent: var(--color-signal);
+	 --size-bezel: 0.5rem;
+	 --size-radius: 4px;
+	 line-height: 1.4;
+	 font-family: 'Inter', sans-serif;
+	 font-size: calc(.6rem + .4vw);
+	 color: var(--color-text);
+	 background: var(--color-background);
+	 font-weight: 300;
+	 padding: 0 calc(var(--size-bezel) * 3);
+}
+  h2, h3 {
+	 font-weight: 900;
+}
+ .input {
+	 position: relative;
+}
+ .input__label {
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+	 margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * .5);
+	 background: pink;
+	 white-space: nowrap;
+	 transform: translate(0, 0);
+	 transform-origin: 0 0;
+	 background: var(--color-background);
+	 transition: transform 120ms ease-in;
+	 font-weight: bold;
+	 line-height: 1.2;
+}
+ .input__field {
+	 box-sizing: border-box;
+	 display: block;
+	 width: 100%;
+	 border: 3px solid currentColor;
+	 padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+	 color: currentColor;
+	 background: transparent;
+	 border-radius: var(--size-radius);
+}
+ .input__field:focus + .input__label, .input__field:not(:placeholder-shown) + .input__label {
+	 transform: translate(0.25rem, -65%) scale(0.8);
+	 color: var(--color-accent);
+}
+ .button-group {
+	 margin-top: calc(var(--size-bezel) * 2.5);
+}
+ button {
+	 color: currentColor;
+	 padding: var(--size-bezel) calc(var(--size-bezel) * 2);
+	 background: var(--color-accent);
+	 border: none;
+	 border-radius: var(--size-radius);
+	 font-weight: 900;
+}
+ button[type=reset] {
+	 background: var(--color-background);
+	 font-weight: 200;
+}
+ button + button {
+	 margin-left: calc(var(--size-bezel) * 2);
+}
+ .hidden {
+	 display: none;
+}
+ 
