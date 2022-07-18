@@ -1,8 +1,30 @@
-# sorteio
-um site de sorteio que fiz usando javascript.
+<h1>🍀Sorteador Web</h1>
+<h2>💻Desafio:</h2>
+<br>
+<p>💻Sortear números aleatorios entre 0 e o número que o usuario escolher</p>
+<br>
+<hr>
+<br>
+<h2>📷Veja:</h2>
+<br>
+<div align="center">
 
-Meu primeiro site com javascript funcional, utilizei comandos math do javascript para fazer um sorteador de números da sorte. 
-Utilizei templates de input, e button, o link do template de input: https://codepen.io/meodai/pen/rNedxBa modifiquei esse template para se ajustar com meu site, link template botão sortear: https://www.instagram.com/p/CeJAWnAFyK3/?utm_source=ig_web_copy_link esse template foi o que mais sofreu modificação.
+![sorteio](https://user-images.githubusercontent.com/104699555/179581286-eafbb2f7-4beb-4419-8922-8ef7a3cd74ae.gif)
 
-Para você ver meu site em funcionamento acesse : https://davimarcilio.github.io/sorteio/
-![Screenshot_390](https://user-images.githubusercontent.com/104699555/171075073-2880d6d7-1a0e-4675-aa0a-e922541b67a5.png)
+<br> <br>
+</div>
+<hr>
+<br>
+<h2>🚀Técnologias utilizadas</h2>
+<br>
+<h3>
+<ul>
+<li>HTML</li>
+<br>
+<li>CSS</li>
+<br>
+<li>JAVASCRIPT</li>
+<br>
+</ul>
+</h3>
+<hr>
